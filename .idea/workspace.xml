@@ -97,7 +97,7 @@
       <workItem from="1592831544429" duration="1306000" />
       <workItem from="1592834453827" duration="1372000" />
       <workItem from="1592899818320" duration="755000" />
-      <workItem from="1593162976893" duration="2246000" />
+      <workItem from="1593162976893" duration="2616000" />
     </task>
     <servers />
   </component>
@@ -185,6 +185,14 @@
     <state x="220" y="22" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591956050387" />
     <state x="226" y="23" key="SettingsEditor/0.23.1440.798@0.23.1440.798" timestamp="1591954997629" />
     <state x="1733" y="47" key="SettingsEditor/1440.23.1920.977/0.23.1440.877@1440.23.1920.977" timestamp="1593165861704" />
+    <state x="1717" y="500" width="1720" height="777" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1593166254143">
+      <screen x="1440" y="23" width="1920" height="977" />
+    </state>
+    <state x="1717" y="500" width="1720" height="777" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/1440.23.1920.977/0.23.1440.877@1440.23.1920.977" timestamp="1593166254143" />
+    <state x="1540" y="123" width="1720" height="777" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593166254144">
+      <screen x="1440" y="23" width="1920" height="977" />
+    </state>
+    <state x="1540" y="123" width="1720" height="777" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1440.23.1920.977/0.23.1440.877@1440.23.1920.977" timestamp="1593166254144" />
     <state x="1962" y="249" key="new project wizard" timestamp="1592829409797">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
