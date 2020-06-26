@@ -4,7 +4,7 @@ const buttonContainer = document.getElementById("delButton");
 //getData liest die Datenbank aus und gibt sie auf der Seite aus
 
 async function getData() {
-  const response = await fetch("http://localhost:8080/api/todo");
+  const response = await fetch("api/todo");
   const data = await response.json();
   console.log(data);
 
@@ -25,7 +25,7 @@ async function addNewToDo() {
   const toDoToAdd = {
     description: todoElement.value
   };
-  await fetch("http://localhost:8080/api/todo", {
+  await fetch("api/todo", {
     method: "PUT",
     headers: {
       "Content-Type": "application/json"
