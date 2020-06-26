@@ -22,24 +22,24 @@ public class ToDoController {
         this.toDoService = toDoService;
     }
 
-    @GetMapping
-    public List<ToDo> getToDo() {
-        return toDoService.getToDo();
-    }
+//    @GetMapping
+//    public List<ToDo> getToDo() {
+//        return toDoService.getToDo();
+//    }
 
     @PutMapping
     public ToDo addNewToDo(@RequestBody ToDo toDo) {
         return toDoService.addNewToDo(toDo);
     }
 
-   @PutMapping("{id}/status")
-   public ToDo changeToDoStatus(@PathVariable String id, @RequestBody ToDo updateToDo) {
-        return toDoService.changeToDoStatus(id, updateToDo);
-   }
-
-    @DeleteMapping("{id}")
-    public List<ToDo> deleteToDo(@PathVariable String id) {
-        return toDoService.deleteToDo(id);
-    }
+//   @PutMapping("{id}/status")
+//   public ToDo changeToDoStatus(@PathVariable String id, @RequestBody ToDo updateToDo) {
+//        return toDoService.changeToDoStatus(id, updateToDo);
+//   }
+//
+//    @DeleteMapping("{id}")
+//    public List<ToDo> deleteToDo(@PathVariable String id) {
+//        return toDoService.deleteToDo(id);
+//    }
 
 }
