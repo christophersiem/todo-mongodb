@@ -1,31 +1,31 @@
-//package de.neuefische.todoapp.controller;
-//
-//import de.neuefische.todoapp.model.ToDo;
-//import de.neuefische.todoapp.model.ToDoStatus;
-//import org.junit.jupiter.api.Test;
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.boot.test.context.SpringBootTest;
-//import org.springframework.boot.test.web.client.TestRestTemplate;
-//import org.springframework.boot.test.web.client.TestRestTemplateExtensionsKt;
-//import org.springframework.boot.web.server.LocalServerPort;
-//import org.springframework.http.HttpEntity;
-//import org.springframework.http.HttpMethod;
-//import org.springframework.http.HttpStatus;
-//import org.springframework.http.ResponseEntity;
-//
-//import java.util.UUID;
-//
-//import static org.junit.jupiter.api.Assertions.*;
-//
-//@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-//class ToDoControllerTest {
-//
-//    @LocalServerPort
-//    private int port;
-//
-//    @Autowired
-//    private TestRestTemplate testRestTemplate;
-//
+package de.neuefische.todoapp.controller;
+
+import de.neuefische.todoapp.model.ToDo;
+import de.neuefische.todoapp.model.ToDoStatus;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.web.client.TestRestTemplate;
+import org.springframework.boot.test.web.client.TestRestTemplateExtensionsKt;
+import org.springframework.boot.web.server.LocalServerPort;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+
+import java.util.UUID;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+class ToDoControllerTest {
+
+    @LocalServerPort
+    private int port;
+
+    @Autowired
+    private TestRestTemplate testRestTemplate;
+
 //    @Test
 //    public void getToDoShouldReturnEmptyToDoArray() {
 //        //Given
@@ -40,7 +40,7 @@
 //        assertEquals( 0, toDo.length);
 //
 //    }
-
+//
 //    @Test
 //    public void getToDoShouldReturnNewlyAddedToDo() {
 //        //POST
@@ -85,4 +85,4 @@
 
 
 
-//}
+}
