@@ -60,7 +60,22 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ToDoControllerTest">
+    <configuration name="ToDoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todo-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.todoapp.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische.todoapp.controller" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.todoapp.controller.ToDoControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TodoAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="todo-app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="de.neuefische.todoapp.TodoAppApplication" />
@@ -68,6 +83,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ToDoControllerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -97,7 +117,7 @@
       <workItem from="1592831544429" duration="1306000" />
       <workItem from="1592834453827" duration="1372000" />
       <workItem from="1592899818320" duration="755000" />
-      <workItem from="1593162976893" duration="2616000" />
+      <workItem from="1593162976893" duration="2885000" />
     </task>
     <servers />
   </component>
@@ -193,9 +213,10 @@
       <screen x="1440" y="23" width="1920" height="977" />
     </state>
     <state x="1540" y="123" width="1720" height="777" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1440.23.1920.977/0.23.1440.877@1440.23.1920.977" timestamp="1593166254144" />
-    <state x="1962" y="249" key="new project wizard" timestamp="1592829409797">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state x="1962" y="232" key="new project wizard" timestamp="1593166526905">
+      <screen x="1440" y="23" width="1920" height="977" />
     </state>
     <state x="1962" y="249" key="new project wizard/1440.23.1920.1057/0.23.1440.877@1440.23.1920.1057" timestamp="1592829409797" />
+    <state x="1962" y="232" key="new project wizard/1440.23.1920.977/0.23.1440.877@1440.23.1920.977" timestamp="1593166526905" />
   </component>
 </project>
