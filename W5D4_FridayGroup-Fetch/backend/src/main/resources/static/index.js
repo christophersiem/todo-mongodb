@@ -39,7 +39,7 @@ async function addNewToDo() {
 
 async function deleteToDo(id) {
 
-  await fetch("http://localhost:8080/api/todo/" + id, {
+  await fetch("api/todo/" + id, {
     method: "DELETE",
     headers: {
       "Content-Type": "application/json"
