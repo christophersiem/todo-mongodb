@@ -32,14 +32,14 @@ public class ToDoController {
         return toDoService.addNewToDo(toDo);
     }
 
-//   @PutMapping("{id}/status")
-//   public ToDo changeToDoStatus(@PathVariable String id, @RequestBody ToDo updateToDo) {
-//        return toDoService.changeToDoStatus(id, updateToDo);
-//   }
-//
-//    @DeleteMapping("{id}")
-//    public List<ToDo> deleteToDo(@PathVariable String id) {
-//        return toDoService.deleteToDo(id);
-//    }
+   @PutMapping("{id}/status")
+   public ToDo changeToDoStatus(@PathVariable String id, @RequestBody ToDo updateToDo) {
+        return toDoService.changeToDoStatus(id, updateToDo);
+   }
+
+    @DeleteMapping("{id}")
+    public void deleteToDo(@PathVariable String id) {
+        toDoService.deleteToDo(id);
+    }
 
 }
