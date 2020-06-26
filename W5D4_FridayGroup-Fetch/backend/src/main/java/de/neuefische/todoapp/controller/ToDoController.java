@@ -22,10 +22,10 @@ public class ToDoController {
         this.toDoService = toDoService;
     }
 
-//    @GetMapping
-//    public List<ToDo> getToDo() {
-//        return toDoService.getToDo();
-//    }
+    @GetMapping
+    public Iterable<ToDo> getToDo() {
+        return toDoService.getToDo();
+    }
 
     @PutMapping
     public ToDo addNewToDo(@RequestBody ToDo toDo) {
