@@ -41,16 +41,11 @@ async function deleteToDo(id) {
 
   await fetch("api/todo/" + id, {
     method: "DELETE",
-    headers: {
-      "Content-Type": "application/json"
-    },
-
-
   })
   await getData();
 }
 
-async function changeToDoStatus(id,status) {
+async function changeToDoStatus(id, status) {
   await fetch("http://localhost:8080/api/todo/" + id + status, {
     method: "PUT",
     headers: {

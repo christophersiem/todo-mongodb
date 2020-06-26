@@ -45,12 +45,7 @@ public class ToDoService {
     }
 
     public void deleteToDo(String id) {
-      Optional<ToDo> result = toDoDB.findById(id);
-      if (result.isEmpty()){
-        throw new ResponseStatusException(HttpStatus.NOT_FOUND);
-      }
-      ToDo toDo = result.get();
-      toDoDB.delete(toDo);
+      toDoDB.deleteById(id);
     }
 
 }
