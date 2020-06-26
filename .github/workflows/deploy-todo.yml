@@ -21,7 +21,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: todo.jar
-          path: ./W5D4_FridayGroup-Fetch/backend/pom.xml
+          path: ./W5D4_FridayGroup-Fetch/backend/target/todo.jar
 
   deploy:
     name: deploy to heroku
